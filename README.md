@@ -2,7 +2,9 @@
 
 > Portfolio release 0.3.0. Synthetic offline core demo based on the BRSIP workflow. Historical business results and synthetic demonstration data are labelled separately.
 
-[Open the English project home locally](index.html) · [Walk through one synthetic run](index.html#example) · [Read the full case](case-study.html)
+[Open the live project home](https://williamyu2019.github.io/ecommerce-invoice-series-error-fix-automation/) · [Walk through one synthetic run](https://williamyu2019.github.io/ecommerce-invoice-series-error-fix-automation/#example) · [Read the full case](https://williamyu2019.github.io/ecommerce-invoice-series-error-fix-automation/case-study.html)
+
+For a downloaded copy, open `index.html` locally.
 
 A portfolio adaptation of the BRSIP invoice-series workflow, using AI agents for invoice exceptions, with explicit checks, saved progress, and visible results.
 
