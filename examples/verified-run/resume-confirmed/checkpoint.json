@@ -1,0 +1,166 @@
+{
+  "payload": {
+    "environment": "SIMULATION",
+    "state": {
+      "tasks": [
+        {
+          "agent_id": "9000",
+          "shop_id": "9001",
+          "status": "RUNNING",
+          "shop_verified": true,
+          "scan_complete": true,
+          "series_before": "004",
+          "series_after": "747",
+          "series_status": "UPDATED",
+          "orders": {
+            "DEMOORDER001": {
+              "order_id": "DEMOORDER001",
+              "buyer": "demo.buyer",
+              "error_code": "539",
+              "status": "ISSUING",
+              "attempts": 1,
+              "reason": "",
+              "evidence": ""
+            }
+          },
+          "reason": "",
+          "last_step": "ISSUING",
+          "updated_at": "2026-01-15T10:00:00-03:00",
+          "last_order_checks": {
+            "DEMOORDER001": {
+              "type": "order_check",
+              "order_id": "DEMOORDER001",
+              "observed_order_id": "DEMOORDER001",
+              "observed_shop_id": "9001",
+              "buyer": "demo.buyer",
+              "status": "PENDING_ERROR",
+              "error_code": "539",
+              "evidence": "SIMULATION exact current order detail",
+              "checked_at": "2026-01-15T10:00:00-03:00"
+            }
+          },
+          "series_save_pending": false,
+          "series_saved_at": "2026-01-15T10:00:00-03:00"
+        }
+      ],
+      "events": [
+        {
+          "at": "2026-01-15T10:00:00-03:00",
+          "shop_id": "9001",
+          "event": {
+            "type": "open",
+            "observed_shop_id": "9001"
+          }
+        },
+        {
+          "at": "2026-01-15T10:00:00-03:00",
+          "shop_id": "9001",
+          "event": {
+            "type": "scan",
+            "complete": true,
+            "orders": [
+              {
+                "order_id": "DEMOORDER001",
+                "buyer": "demo.buyer",
+                "status": "PENDING_ERROR",
+                "error_code": "539",
+                "evidence": "",
+                "reason": ""
+              }
+            ]
+          }
+        },
+        {
+          "at": "2026-01-15T10:00:00-03:00",
+          "shop_id": "9001",
+          "event": {
+            "type": "order_check",
+            "order_id": "DEMOORDER001",
+            "observed_order_id": "DEMOORDER001",
+            "observed_shop_id": "9001",
+            "buyer": "demo.buyer",
+            "status": "PENDING_ERROR",
+            "error_code": "539",
+            "evidence": "SIMULATION exact current order detail"
+          }
+        },
+        {
+          "at": "2026-01-15T10:00:00-03:00",
+          "shop_id": "9001",
+          "event": {
+            "type": "series_intent",
+            "before": "004"
+          }
+        },
+        {
+          "at": "2026-01-15T10:00:00-03:00",
+          "shop_id": "9001",
+          "event": {
+            "type": "series_save_result",
+            "success": true,
+            "evidence": "SIMULATION save success"
+          }
+        },
+        {
+          "at": "2026-01-15T10:00:00-03:00",
+          "shop_id": "9001",
+          "event": {
+            "type": "series_verified",
+            "before": "004",
+            "after": "747",
+            "reloaded": true,
+            "evidence": "SIMULATION series reload"
+          }
+        },
+        {
+          "at": "2026-01-15T10:00:00-03:00",
+          "shop_id": "9001",
+          "event": {
+            "type": "order_check",
+            "order_id": "DEMOORDER001",
+            "observed_order_id": "DEMOORDER001",
+            "observed_shop_id": "9001",
+            "buyer": "demo.buyer",
+            "status": "PENDING_ERROR",
+            "error_code": "539",
+            "evidence": "SIMULATION exact current order detail"
+          }
+        },
+        {
+          "at": "2026-01-15T10:00:00-03:00",
+          "shop_id": "9001",
+          "event": {
+            "type": "issue_intent",
+            "order_id": "DEMOORDER001",
+            "observed_order_id": "DEMOORDER001",
+            "observed_shop_id": "9001",
+            "buyer": "demo.buyer",
+            "error_code": "539"
+          }
+        }
+      ],
+      "phase": "REPAIR",
+      "input_sha256": "6d8ff573c90bd510383ff3dc7b788c5de4ac55ab971d75174d07b8faef56b8b3"
+    },
+    "cfg": {
+      "workflow_version": 2,
+      "test_mode": true,
+      "buyers": [
+        "demo.buyer"
+      ],
+      "supported_error_codes": [
+        "539",
+        "206"
+      ],
+      "target_series": "747",
+      "reference_orders": {
+        "9001": [
+          "DEMOORDER001"
+        ]
+      }
+    },
+    "observation_clock": "2026-01-15T10:00:00-03:00",
+    "run_id": "sim-90622be950e0"
+  },
+  "sha256": "1e597a7529e66daa42e97bde3438fab72bee0c28dab2db6905d9ea3be991f707"
+}

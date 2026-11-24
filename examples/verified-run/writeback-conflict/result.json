@@ -1,0 +1,20 @@
+{
+  "rejection_stage": "tracker_writeback",
+  "tracker_action": "Existing other decision",
+  "tracker_date": null,
+  "tracker_note": "",
+  "scenario": "writeback-conflict",
+  "run_id": "sim-79c29ebb0e7b",
+  "environment": "SIMULATION",
+  "outcome": "WRITEBACK_CONFLICT",
+  "order_status": "ISSUED",
+  "attempts": 1,
+  "series_saves": 1,
+  "series_before": "004",
+  "series_after": "747",
+  "closeout_verified": false,
+  "recovery_action": null,
+  "rejected_actions": 1,
+  "model_calls": 0,
+  "live_business_actions": 0
+}

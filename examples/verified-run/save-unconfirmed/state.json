@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "agent_id": "9000",
+      "shop_id": "9001",
+      "status": "RUNNING",
+      "shop_verified": true,
+      "scan_complete": true,
+      "series_before": "004",
+      "series_after": "",
+      "series_status": "NOT_CHECKED",
+      "orders": {
+        "DEMOORDER001": {
+          "order_id": "DEMOORDER001",
+          "buyer": "demo.buyer",
+          "error_code": "539",
+          "status": "READY",
+          "attempts": 0,
+          "reason": "",
+          "evidence": ""
+        }
+      },
+      "reason": "",
+      "last_step": "SERIES_SAVING",
+      "updated_at": "2026-01-15T10:00:00-03:00",
+      "last_order_checks": {
+        "DEMOORDER001": {
+          "type": "order_check",
+          "order_id": "DEMOORDER001",
+          "observed_order_id": "DEMOORDER001",
+          "observed_shop_id": "9001",
+          "buyer": "demo.buyer",
+          "status": "PENDING_ERROR",
+          "error_code": "539",
+          "evidence": "SIMULATION exact current order detail",
+          "checked_at": "2026-01-15T10:00:00-03:00"
+        }
+      },
+      "series_save_pending": true
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "open",
+        "observed_shop_id": "9001"
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "scan",
+        "complete": true,
+        "orders": [
+          {
+            "order_id": "DEMOORDER001",
+            "buyer": "demo.buyer",
+            "status": "PENDING_ERROR",
+            "error_code": "539",
+            "evidence": "",
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "order_check",
+        "order_id": "DEMOORDER001",
+        "observed_order_id": "DEMOORDER001",
+        "observed_shop_id": "9001",
+        "buyer": "demo.buyer",
+        "status": "PENDING_ERROR",
+        "error_code": "539",
+        "evidence": "SIMULATION exact current order detail"
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "series_intent",
+        "before": "004"
+      }
+    }
+  ],
+  "phase": "REPAIR",
+  "input_sha256": "d43af94b84acea386c441b06d043e98f53b19d768ae505bff580042f07e89580"
+}

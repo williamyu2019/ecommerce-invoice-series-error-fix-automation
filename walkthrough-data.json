@@ -1,0 +1,66 @@
+{
+  "version": "0.3.0",
+  "kind": "Recorded synthetic core run, static replay",
+  "scenario": "resume-confirmed",
+  "steps": [
+    {
+      "title": "1 \u00b7 Current exception",
+      "description": "A synthetic order currently has invoice-series error 539. The old series value is 004.",
+      "facts": {
+        "shop": "9001",
+        "order": "DEMOORDER001",
+        "error": "539",
+        "current_status": "PENDING_ERROR"
+      },
+      "evidence": "examples/verified-run/resume-confirmed/input.json"
+    },
+    {
+      "title": "2 \u00b7 Identity and eligibility",
+      "description": "The core verifies the shop and exact order, then checks the current buyer, error and pending state.",
+      "facts": {
+        "observed_shop_id": "9001",
+        "observed_order_id": "DEMOORDER001",
+        "buyer": "demo.buyer",
+        "status": "PENDING_ERROR",
+        "error_code": "539"
+      },
+      "evidence": "examples/verified-run/resume-confirmed/state.json"
+    },
+    {
+      "title": "3 \u00b7 Save and reload",
+      "description": "The simulated tool reports a save result. The core requires a reload to verify the stored target series.",
+      "facts": {
+        "before": "004",
+        "after": "747",
+        "reloaded": true,
+        "evidence": "SIMULATION series reload"
+      },
+      "evidence": "examples/verified-run/resume-confirmed/state.json"
+    },
+    {
+      "title": "4 \u00b7 Interrupted attempt",
+      "description": "The writer exits after persisting one issuance attempt. A new reader reconciles the outcome read-only; another issue attempt is rejected.",
+      "facts": {
+        "persisted_status": "ISSUING",
+        "persisted_attempts": 1,
+        "different_writer_and_reader_processes": true,
+        "recovery_action": "VERIFY_INVOICE_READ_ONLY",
+        "duplicate_actions_rejected": 1
+      },
+      "evidence": "examples/verified-run/resume-confirmed/run-log.jsonl"
+    },
+    {
+      "title": "5 \u00b7 Verified output",
+      "description": "The simulated invoice is available. The tracker action, actual fixture date and note are read back and verified.",
+      "facts": {
+        "order_status": "ISSUED",
+        "total_attempts": 1,
+        "series": "004 \u2192 747",
+        "tracker_action": "Fixed invoice # to 747; invoice ISSUED",
+        "tracker_date": "2026-01-15",
+        "closeout_verified": true
+      },
+      "evidence": "examples/verified-run/resume-confirmed/result.json"
+    }
+  ]
+}

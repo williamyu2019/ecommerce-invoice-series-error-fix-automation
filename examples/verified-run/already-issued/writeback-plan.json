@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "spreadsheet_id": "synthetic-tracker",
+  "sheet": "Synthetic outcomes",
+  "input_sha256": "c559a91bc2c1ba997306ba33813b2faf8418822d6ea416ff0cb383f4a7c46a25",
+  "orders_sha256": "79aff4263038c1eca77b1c21b26b9fa775105207905cd08d218faa0575a57e1a",
+  "state_sha256": "cda70769387e39903dfc99d44cf64c7ba2fc5e2d76670e2bd9cf8c7185d4719c",
+  "rows": [
+    {
+      "shop_id": "9001",
+      "order_id": "DEMOORDER001",
+      "action": "Skipped - invoice already issued; series unchanged",
+      "date_fixed": null,
+      "invoice_status": "ALREADY_ISSUED",
+      "note": "SIMULATION observed invoice download"
+    }
+  ],
+  "needs_review": [],
+  "instruction": "Match Sheet rows by order AND shop. Preserve A:AJ snapshots; write AK action, AL actual series-fix date only. Read back all rows."
+}

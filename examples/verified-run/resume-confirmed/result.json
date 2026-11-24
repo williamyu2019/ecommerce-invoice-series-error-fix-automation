@@ -1,0 +1,20 @@
+{
+  "rejection_stage": "issue_intent",
+  "tracker_action": "Fixed invoice # to 747; invoice ISSUED",
+  "tracker_date": "2026-01-15",
+  "tracker_note": "SIMULATION same-order invoice download available",
+  "scenario": "resume-confirmed",
+  "run_id": "sim-90622be950e0",
+  "environment": "SIMULATION",
+  "outcome": "COMPLETE",
+  "order_status": "ISSUED",
+  "attempts": 1,
+  "series_saves": 1,
+  "series_before": "004",
+  "series_after": "747",
+  "closeout_verified": true,
+  "recovery_action": "VERIFY_INVOICE_READ_ONLY",
+  "rejected_actions": 1,
+  "model_calls": 0,
+  "live_business_actions": 0
+}

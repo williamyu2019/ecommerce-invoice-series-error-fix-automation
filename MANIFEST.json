@@ -1,0 +1,846 @@
+{
+  "version": "0.3.0",
+  "files": {
+    ".gitignore": {
+      "bytes": 40,
+      "sha256": "448bd241c667e777086d166c831d84fc33e42ec09bceb07abe9449a0b3595957"
+    },
+    ".python-version": {
+      "bytes": 8,
+      "sha256": "f50159fad3f4319868eb38717b91d55843c41e9803014c8de05e116a6d0bcfdc"
+    },
+    "ARCHITECTURE.svg": {
+      "bytes": 3306,
+      "sha256": "db5ad47f03fedb3b2de2de109a798ce10c99493af00fab84c763e2a956843772"
+    },
+    "CASE_STUDY.md": {
+      "bytes": 9338,
+      "sha256": "34676d0347de5da584b847bb685066ba4063b5a03d83d2670696cad89c4eae53"
+    },
+    "PROVENANCE.md": {
+      "bytes": 5279,
+      "sha256": "72d108d53623b249c7f63863f3cdda87514ca3200aed187fcba1fb2d19af8bcc"
+    },
+    "README.md": {
+      "bytes": 8122,
+      "sha256": "c89ac862af537386ba6271b5994dbacba3ebe8c6ff2e550c6f91855191b9d0fa"
+    },
+    "VERIFICATION.md": {
+      "bytes": 2812,
+      "sha256": "8d80f47236231c584780eb34c550201fa6c933e6087233278a5a1aacb4b9d48a"
+    },
+    "case-study.html": {
+      "bytes": 11770,
+      "sha256": "47f2959f0900a599961808abcffee1bf15ced1e88e1ba3c783d053bcc8963218"
+    },
+    "dashboards/evolution-data.json": {
+      "bytes": 4916,
+      "sha256": "29f6e4a4ae66f03954be75e83ba9898a969653e4f889197ea9cd99f279ae0132"
+    },
+    "dashboards/evolution.html": {
+      "bytes": 18419,
+      "sha256": "ae72410b503e5d27965861ccaeb7de61dfd3d18802c7d88849301b5f83ce87d4"
+    },
+    "dashboards/index.html": {
+      "bytes": 1698,
+      "sha256": "3bbe8b8eac9ca873439b305fc12cfe429762534f02f1a9ca4229b3168e7fe603"
+    },
+    "dashboards/monitoring-core-results.json": {
+      "bytes": 12642,
+      "sha256": "b1c61723d2ca3062d8515eccab4062468a27e8650ea467af6b7c47cb69814612"
+    },
+    "dashboards/monitoring-data.json": {
+      "bytes": 9680,
+      "sha256": "be3a89a84b08865671de7cf760d1fae204da3eda683640b5fedf56f3f8c9c189"
+    },
+    "dashboards/monitoring-layout-fixture.json": {
+      "bytes": 9649,
+      "sha256": "0700e118b6f2bb9a199d4bb277d19b87fac6cb5b4f270d078bc52cf80056f745"
+    },
+    "dashboards/monitoring.html": {
+      "bytes": 24692,
+      "sha256": "9baf3dd64bba13ab27c6a81e0d849ab2bd737f5fa47960d1c728ac6d4b186a2b"
+    },
+    "dashboards/sources.json": {
+      "bytes": 1449,
+      "sha256": "650694992ab4ff485d8ebf8cc8ccfe85558665dd367e69a1824aa1179a7a333c"
+    },
+    "dashboards/vendor/D3-LICENSE.txt": {
+      "bytes": 731,
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+    },
+    "dashboards/vendor/d3-7.9.0.min.js": {
+      "bytes": 279706,
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    },
+    "examples/expectations.json": {
+      "bytes": 5863,
+      "sha256": "d4f2f355991e076c519c3a7e57674bca0e1a65d0c0cd8608fd7607c3586e62f3"
+    },
+    "examples/scenarios.json": {
+      "bytes": 4533,
+      "sha256": "0255dc6c0957b95810f8d5544727645908118f0b17bf94e0278acad684385fb8"
+    },
+    "examples/verified-run/agent-authored-authorization/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/agent-authored-authorization/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/agent-authored-authorization/input.json": {
+      "bytes": 291,
+      "sha256": "910317bafbbdaa49da22f7e766555d9703b668a6dcc9817ec80970c769f56a84"
+    },
+    "examples/verified-run/agent-authored-authorization/result.json": {
+      "bytes": 502,
+      "sha256": "1264de9356172453d1c4f8b008f81361473e6642adbccc4f84b944c3f3608acb"
+    },
+    "examples/verified-run/agent-authored-authorization/run-log.jsonl": {
+      "bytes": 2473,
+      "sha256": "292a7e88673b50bdcc28a26148e0463b3f243d6740a5a7039c01648ed19693da"
+    },
+    "examples/verified-run/agent-authored-authorization/simulated-authorization.json": {
+      "bytes": 82,
+      "sha256": "5b4191b39cbb198081584cedec5975ceaf2a7a5c79507e032cd894ebde075639"
+    },
+    "examples/verified-run/agent-authored-authorization/state.json": {
+      "bytes": 478,
+      "sha256": "10fc67b981f499246f3c85c2b32ed620e6e550a9468598d386f48cecad15ba11"
+    },
+    "examples/verified-run/agent-authored-authorization/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/agent-authored-authorization/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/already-issued/Tracker_Closeout_Verification.json": {
+      "bytes": 809,
+      "sha256": "87fdf4e3341ad34d5d6008fb299a7b6485b4aa6b9928dfbe652ce31c64782855"
+    },
+    "examples/verified-run/already-issued/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "59682a64e40652ae91162d425695e9537789670673cd1168851e8194da8d22c3"
+    },
+    "examples/verified-run/already-issued/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/already-issued/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/already-issued/input.json": {
+      "bytes": 247,
+      "sha256": "c559a91bc2c1ba997306ba33813b2faf8418822d6ea416ff0cb383f4a7c46a25"
+    },
+    "examples/verified-run/already-issued/result.json": {
+      "bytes": 555,
+      "sha256": "425a58ae70d9983dc204ed54ac7885a5b6129773e26300ed5052bc0c5177db9c"
+    },
+    "examples/verified-run/already-issued/run-log.jsonl": {
+      "bytes": 4552,
+      "sha256": "709b3cebaa52deaa44adbd0e062022b011355a168695ddd846748217762f279f"
+    },
+    "examples/verified-run/already-issued/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/already-issued/state.json": {
+      "bytes": 1628,
+      "sha256": "d0d2f61fee674276b39291bb3690962c7c431905edc8430b2f3a08b350e2d156"
+    },
+    "examples/verified-run/already-issued/tracker-after.json": {
+      "bytes": 224,
+      "sha256": "be72556cda3a471c71c100fcde9990904d5e6a5a1bdc678a889df424c93ea56b"
+    },
+    "examples/verified-run/already-issued/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/already-issued/tracker-prewrite.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/already-issued/writeback-plan.json": {
+      "bytes": 810,
+      "sha256": "a1b484782bab1018144ba7dad8ee78e5a5947fc7c8ddf690ede6ab90ff2b9d9a"
+    },
+    "examples/verified-run/cancelled/Tracker_Closeout_Verification.json": {
+      "bytes": 801,
+      "sha256": "59942e45a7e51702372cb02e06d4417a73358053df05774728ee1e1350ad7a96"
+    },
+    "examples/verified-run/cancelled/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "1c6bae09a43b9b4d6e96f4f2151576e29a1972d554bef2e096bdcf06e001c1d5"
+    },
+    "examples/verified-run/cancelled/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/cancelled/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/cancelled/input.json": {
+      "bytes": 240,
+      "sha256": "ba6d2c98d12e4d2bc484948772042102c8193285fa4810e80f2aa9ef123e955f"
+    },
+    "examples/verified-run/cancelled/result.json": {
+      "bytes": 535,
+      "sha256": "fe2ad76ffaa32195820e52400b15869061d8d75fef0042b66c979722f6af3e07"
+    },
+    "examples/verified-run/cancelled/run-log.jsonl": {
+      "bytes": 4500,
+      "sha256": "35492420bb7937834624ff1d5dbac808ce1f1dce2dca63d92c617413a113c3c2"
+    },
+    "examples/verified-run/cancelled/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/cancelled/state.json": {
+      "bytes": 1594,
+      "sha256": "cbcc3f035d4de2a533a7eae280e0716535d809a35affe7aa56b31c3e5ee4431d"
+    },
+    "examples/verified-run/cancelled/tracker-after.json": {
+      "bytes": 216,
+      "sha256": "4c9e3a825334fecc5ac1ea7cef5d5890569a301df35b39b07ceaff61077a3a90"
+    },
+    "examples/verified-run/cancelled/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/cancelled/tracker-prewrite.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/cancelled/writeback-plan.json": {
+      "bytes": 795,
+      "sha256": "aaf22a6f3c602e1f4792e8199cd9746f2cd14b556d9ef727d4cd841571c8f2d4"
+    },
+    "examples/verified-run/evaluation-results.json": {
+      "bytes": 17831,
+      "sha256": "80e0a45dc9a73d95079b03b77a756ca331948f774ebf7904bb6557e7e2491d23"
+    },
+    "examples/verified-run/evidence-environment/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/evidence-environment/evidence/receipt.json": {
+      "bytes": 154,
+      "sha256": "b3513c9560916d9cc419762304d88185f6a9c5c97c6a030d2ba64e8da7081f41"
+    },
+    "examples/verified-run/evidence-environment/input.json": {
+      "bytes": 268,
+      "sha256": "f156945126af4ad1f208213c25d32c6186da22c25875e1f8bd1758a926f49424"
+    },
+    "examples/verified-run/evidence-environment/result.json": {
+      "bytes": 479,
+      "sha256": "01606dafcfcfbf9828c23afa9d03b2b1916f3c5016b5c0f8995b9074ab7c0923"
+    },
+    "examples/verified-run/evidence-environment/run-log.jsonl": {
+      "bytes": 1885,
+      "sha256": "5172c7fa61540c3e55bd6c81963815e9194f6e4da8cdf8008122dbd3a8dd8000"
+    },
+    "examples/verified-run/evidence-environment/state.json": {
+      "bytes": 478,
+      "sha256": "895d379449bf89b952d0b65700779881b6294c80bb3cad7dd3b513036eb8cf08"
+    },
+    "examples/verified-run/evidence-environment/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/evidence-environment/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/evidence-hash/evidence/observation.txt": {
+      "bytes": 32,
+      "sha256": "aeee6ae460721a27b606df5af8ff2c1a2f9ece16940a51da44efc773ecf80a8c"
+    },
+    "examples/verified-run/evidence-hash/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/evidence-hash/input.json": {
+      "bytes": 250,
+      "sha256": "4b0c647ec76bccaad3f77f8b25438dfbd9dc66fa5007bd935682e5eb1e1d32f0"
+    },
+    "examples/verified-run/evidence-hash/result.json": {
+      "bytes": 472,
+      "sha256": "16a200a5267109a9ebf684bff4bf34878c96e4b182035401ad6950b404a9fe28"
+    },
+    "examples/verified-run/evidence-hash/run-log.jsonl": {
+      "bytes": 1857,
+      "sha256": "6498e594c703e8db7cd96715c52d6ebadf814c9e425356c6a6b0766a0123dfca"
+    },
+    "examples/verified-run/evidence-hash/state.json": {
+      "bytes": 478,
+      "sha256": "b647982469f611ab40961712fc86d5a325e253cf17e26938d55968130508aa62"
+    },
+    "examples/verified-run/evidence-hash/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/evidence-hash/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/missing-authorization/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/missing-authorization/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/missing-authorization/input.json": {
+      "bytes": 275,
+      "sha256": "c143867679c223d015343fdac922763f0767a7527fc15a96e72cc5737bc05d2e"
+    },
+    "examples/verified-run/missing-authorization/result.json": {
+      "bytes": 495,
+      "sha256": "2cf2c122969498cf9afbe5930a34663b3ddb70866fc585bab6813a1dafd617de"
+    },
+    "examples/verified-run/missing-authorization/run-log.jsonl": {
+      "bytes": 2450,
+      "sha256": "ba0f37b46bcd97c8b468bc83681bc9ec77580c0f78887cc090c8bbb793aac5ae"
+    },
+    "examples/verified-run/missing-authorization/simulated-authorization.json": {
+      "bytes": 94,
+      "sha256": "4d41687852567644e36417f9592ecc36a3c1b798a471b993187bd6c90d425a48"
+    },
+    "examples/verified-run/missing-authorization/state.json": {
+      "bytes": 478,
+      "sha256": "61f926497ae2ca8c77b84191923fef5d5c326946866a301f78038994d1aa3f31"
+    },
+    "examples/verified-run/missing-authorization/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/missing-authorization/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/normal206/Tracker_Closeout_Verification.json": {
+      "bytes": 817,
+      "sha256": "f60c3e58e9acaaf4ba72661536c8fc586fd57ed78998e17a5fef8d20efdc6599"
+    },
+    "examples/verified-run/normal206/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "0f5b151c81adf6a19334677a691a7d7309ebd9d0dd01e4fbfb6b91e4cdf1513e"
+    },
+    "examples/verified-run/normal206/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/normal206/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/normal206/input.json": {
+      "bytes": 246,
+      "sha256": "805f93a8a930d5d91c27038a031b38b3e09af468db93b0207a90808711d6265a"
+    },
+    "examples/verified-run/normal206/result.json": {
+      "bytes": 557,
+      "sha256": "45b97ad98f8b41ba4b490f00257c79e1ab36f522ea54f2fac27cd1eb89424383"
+    },
+    "examples/verified-run/normal206/run-log.jsonl": {
+      "bytes": 8631,
+      "sha256": "b7c5afe66ee1c4cf5d8c3986a4315016af86c0ee7eca8a27d1d77df4a2488ee7"
+    },
+    "examples/verified-run/normal206/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/normal206/state.json": {
+      "bytes": 4188,
+      "sha256": "15d1e9ad598d03ba0b13ddd0e8fd8ba5bb26d5c6e5252653d1bb664d2110d8c7"
+    },
+    "examples/verified-run/normal206/tracker-after.json": {
+      "bytes": 232,
+      "sha256": "a71008878d1c4e6a4a67b6214439587681b5df432091a6f89dc808e1849bfe3a"
+    },
+    "examples/verified-run/normal206/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/normal206/tracker-prewrite.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/normal206/writeback-plan.json": {
+      "bytes": 810,
+      "sha256": "51b53f4f50547c2d159789f85b6d805f92c01ddcee9cf27279c82d4228546c04"
+    },
+    "examples/verified-run/normal539/Tracker_Closeout_Verification.json": {
+      "bytes": 817,
+      "sha256": "4898bc740b888dcc52cde768561fff4e22874240cbc4678d9e24b98d7b85061a"
+    },
+    "examples/verified-run/normal539/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "8c157f4ba362832b536ff5b58098b4c3308d659a378d5e21349d70c77e6952cf"
+    },
+    "examples/verified-run/normal539/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/normal539/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/normal539/input.json": {
+      "bytes": 246,
+      "sha256": "1d594c6a674b029cab8a666294361789066114f7130630ef16eee1d914ed3cfe"
+    },
+    "examples/verified-run/normal539/result.json": {
+      "bytes": 557,
+      "sha256": "474a59022a6f41f3858f214b4ac7ba5f4b7405841e95ccb26442ed0cd43f30c1"
+    },
+    "examples/verified-run/normal539/run-log.jsonl": {
+      "bytes": 8631,
+      "sha256": "1f08cef819e3f16576fe26fc8008c54a24b084a9aac713ad9db1a84ef18a86ae"
+    },
+    "examples/verified-run/normal539/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/normal539/state.json": {
+      "bytes": 4188,
+      "sha256": "0114d91921d4b14b4675dc87f358b385d882980e529ce2c3015960a914b1051e"
+    },
+    "examples/verified-run/normal539/tracker-after.json": {
+      "bytes": 232,
+      "sha256": "a71008878d1c4e6a4a67b6214439587681b5df432091a6f89dc808e1849bfe3a"
+    },
+    "examples/verified-run/normal539/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/normal539/tracker-prewrite.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/normal539/writeback-plan.json": {
+      "bytes": 810,
+      "sha256": "d6f3a49023cdb4bfc00bd58b0641caf5d6356909b87c8ed8bfab8be8ac1c6aff"
+    },
+    "examples/verified-run/reload-old-series/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "95ddc06245ee401b01fae5c91f5ee42ae71ed1dc6a2c656c2fb7b4f5918663e3"
+    },
+    "examples/verified-run/reload-old-series/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/reload-old-series/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/reload-old-series/input.json": {
+      "bytes": 256,
+      "sha256": "ffaa31100cf0665a1c593fc849e399d3a69891c441c077f022287987309cdbac"
+    },
+    "examples/verified-run/reload-old-series/result.json": {
+      "bytes": 480,
+      "sha256": "6b94cca6693f4a5c53d911b6cf0b718232cffb8ea3b6866a567ed300e2a616a5"
+    },
+    "examples/verified-run/reload-old-series/run-log.jsonl": {
+      "bytes": 6171,
+      "sha256": "f881d762339a15658890cfc46c2e7e4809e33c61010acef4a0b3f445998aecda"
+    },
+    "examples/verified-run/reload-old-series/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/reload-old-series/state.json": {
+      "bytes": 2232,
+      "sha256": "a184378776c477ef5c030e312370b6e909b07c5dd6850516009e0e4c7f388d50"
+    },
+    "examples/verified-run/reload-old-series/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/reload-old-series/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/resume-confirmed/Tracker_Closeout_Verification.json": {
+      "bytes": 817,
+      "sha256": "16187a678360466baff78175b18c11de9696943612108db4002d53f4459ace10"
+    },
+    "examples/verified-run/resume-confirmed/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "599c7591f6bce6df223b5cbb717d6d1542e8539b3cf463640c87ae2628de03c8"
+    },
+    "examples/verified-run/resume-confirmed/checkpoint.json": {
+      "bytes": 4732,
+      "sha256": "0c8dcbccc3f2b05715edac3e933630c455db9df6c9a87396ab5d6f6c345413fa"
+    },
+    "examples/verified-run/resume-confirmed/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/resume-confirmed/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/resume-confirmed/input.json": {
+      "bytes": 265,
+      "sha256": "6d8ff573c90bd510383ff3dc7b788c5de4ac55ab971d75174d07b8faef56b8b3"
+    },
+    "examples/verified-run/resume-confirmed/result.json": {
+      "bytes": 596,
+      "sha256": "3d897da54ea498a8eb021be4f689a1bcbc9907fd182011e25f56656d836b9cc7"
+    },
+    "examples/verified-run/resume-confirmed/run-log.jsonl": {
+      "bytes": 10159,
+      "sha256": "3ca206112c14fec3e0fe40a5af33eac5faed07f6d72e368de204dabb505aa4d2"
+    },
+    "examples/verified-run/resume-confirmed/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/resume-confirmed/state.json": {
+      "bytes": 4188,
+      "sha256": "ceadaf859216d4c80c7bffb0bfb8bee375844c1e79047833395b8e4af87006ab"
+    },
+    "examples/verified-run/resume-confirmed/tracker-after.json": {
+      "bytes": 232,
+      "sha256": "a71008878d1c4e6a4a67b6214439587681b5df432091a6f89dc808e1849bfe3a"
+    },
+    "examples/verified-run/resume-confirmed/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/resume-confirmed/tracker-prewrite.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/resume-confirmed/writeback-plan.json": {
+      "bytes": 810,
+      "sha256": "ab056ad1038459a486c16f45ce14432c545cb00772c8aba4a45242d54cb0da9d"
+    },
+    "examples/verified-run/resume-unknown/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "bfff19bd91a4fb226d8940a88bd93305a81fe7a86a50ad008c77ce8df8b4da70"
+    },
+    "examples/verified-run/resume-unknown/checkpoint.json": {
+      "bytes": 4732,
+      "sha256": "bc099b9b6f5c19fe0795601e534ba274d5a78a1aba5ebc9f4a05a7e88a473490"
+    },
+    "examples/verified-run/resume-unknown/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/resume-unknown/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/resume-unknown/input.json": {
+      "bytes": 275,
+      "sha256": "55a3889025bb8d72a0a91e2d7e1b2217d6e2091d39cb1f7aa43557d8565088eb"
+    },
+    "examples/verified-run/resume-unknown/result.json": {
+      "bytes": 499,
+      "sha256": "ef2d7515200f909917fa7308074ccd571178cb2f87d90120702b00e01e0d0ab0"
+    },
+    "examples/verified-run/resume-unknown/run-log.jsonl": {
+      "bytes": 9453,
+      "sha256": "fd63f21e273f51acaee203c4d8a7b4ab2e828bf20227e07b2b133271671d86a9"
+    },
+    "examples/verified-run/resume-unknown/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/resume-unknown/state.json": {
+      "bytes": 4161,
+      "sha256": "376ccdf132b8b79292dd6c82145c15c5b32e2f13b609f2659264f4489f694b62"
+    },
+    "examples/verified-run/resume-unknown/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/resume-unknown/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/review.html": {
+      "bytes": 19843,
+      "sha256": "6ff7f68e5d41a089ce51ca52c55d263db0b1d7a10d22b7a2769165719a9b15a5"
+    },
+    "examples/verified-run/run-log.jsonl": {
+      "bytes": 91774,
+      "sha256": "5ae9b676daf7d807490d0ff749d9d978fd35830eee867f1e6535db32ccce34ca"
+    },
+    "examples/verified-run/save-unconfirmed/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "93269701b19a7f9a5028647baa9b84f987232ebb06a3b1af97336782ce6dc674"
+    },
+    "examples/verified-run/save-unconfirmed/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/save-unconfirmed/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/save-unconfirmed/input.json": {
+      "bytes": 267,
+      "sha256": "d43af94b84acea386c441b06d043e98f53b19d768ae505bff580042f07e89580"
+    },
+    "examples/verified-run/save-unconfirmed/result.json": {
+      "bytes": 479,
+      "sha256": "49ac6a4b9b0ea6452da83ccbb9d73b37a9d7e683ffbda725f83c7d472514acc7"
+    },
+    "examples/verified-run/save-unconfirmed/run-log.jsonl": {
+      "bytes": 5745,
+      "sha256": "950538b40ea49aac34b1069d1c93e96982c89cc0dc6dbcf511177ffcfd45ed7b"
+    },
+    "examples/verified-run/save-unconfirmed/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/save-unconfirmed/state.json": {
+      "bytes": 2380,
+      "sha256": "d445cc7d7f94921a51ddac098233eb07c9ce963cf5a5b62bd1b271b69196e205"
+    },
+    "examples/verified-run/save-unconfirmed/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/save-unconfirmed/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/writeback-conflict/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "c8369477be10a361aa355348d543d398ccf64c5430e20d3246ceb4c830a38edd"
+    },
+    "examples/verified-run/writeback-conflict/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/writeback-conflict/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/writeback-conflict/input.json": {
+      "bytes": 263,
+      "sha256": "13e71c6140f964682f0635edafa898e01ae225fdc8371365ed3e79ddce5d3568"
+    },
+    "examples/verified-run/writeback-conflict/result.json": {
+      "bytes": 521,
+      "sha256": "78b9fc014bee7ef80b42daf9a75696b8fc0c06ea85e94002cc9bbfd46b1daa1b"
+    },
+    "examples/verified-run/writeback-conflict/run-log.jsonl": {
+      "bytes": 8506,
+      "sha256": "aa1db412b08cb54449e701da67f1699aff0ab130760619b3dc36aa16175e289e"
+    },
+    "examples/verified-run/writeback-conflict/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/writeback-conflict/state.json": {
+      "bytes": 4188,
+      "sha256": "16c751eb78430e4d329cf5af3c6d5109f814e223e4a071ddf8aa9bf1a3e2884f"
+    },
+    "examples/verified-run/writeback-conflict/tracker-after.json": {
+      "bytes": 161,
+      "sha256": "6ab90bbd88b20bea262f8996a15ac34d1f3d6c5e6ab2cc5db476251444443514"
+    },
+    "examples/verified-run/writeback-conflict/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/writeback-conflict/tracker-prewrite.json": {
+      "bytes": 161,
+      "sha256": "6ab90bbd88b20bea262f8996a15ac34d1f3d6c5e6ab2cc5db476251444443514"
+    },
+    "examples/verified-run/writeback-conflict/writeback-plan.json": {
+      "bytes": 810,
+      "sha256": "5e649c47c4fcc1eb18c3659f706af23411cc214df294eeabbaa3f63dcf67efaa"
+    },
+    "examples/verified-run/writeback-moved/Tracker_Closeout_Verification.json": {
+      "bytes": 818,
+      "sha256": "559e9837d30e06d0fc07ffcd42200db645fda2f10ed3828fddabecd1856a94a9"
+    },
+    "examples/verified-run/writeback-moved/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "6c4f54007849e81766da587bedb85d505151ab6d545b1c08af68077bd4249fac"
+    },
+    "examples/verified-run/writeback-moved/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/writeback-moved/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/writeback-moved/input.json": {
+      "bytes": 271,
+      "sha256": "b8dce76e3d35d1e19c9a7426b2ba8d7918d16b3731c2d248b1fe47106df509ce"
+    },
+    "examples/verified-run/writeback-moved/result.json": {
+      "bytes": 563,
+      "sha256": "0475888860234d7a42fb99bae3a6b9d0f2df554359720969dbc5370b5ca5b8c7"
+    },
+    "examples/verified-run/writeback-moved/run-log.jsonl": {
+      "bytes": 8815,
+      "sha256": "acfc6ddf9b0b48bd8c90d380c5ec780fc47b59d49de642c014441dbfe9e64e65"
+    },
+    "examples/verified-run/writeback-moved/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/writeback-moved/state.json": {
+      "bytes": 4188,
+      "sha256": "60974ddb5205c0ea9c17b38f6eb29d2d4fdfce20d9eef2351aafe323a04b8973"
+    },
+    "examples/verified-run/writeback-moved/tracker-after.json": {
+      "bytes": 415,
+      "sha256": "10c7f8e179b15ff1f910cda29c3b54894710ca0ac158818a5be0bc4d7e8a0286"
+    },
+    "examples/verified-run/writeback-moved/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/writeback-moved/tracker-prewrite.json": {
+      "bytes": 321,
+      "sha256": "d7d7787a1b410f2a3a506b450799e62bb78dfff2e14c2ffd323ca4ae6a0120d1"
+    },
+    "examples/verified-run/writeback-moved/writeback-plan.json": {
+      "bytes": 810,
+      "sha256": "5a3e6480deb6f0017c969f7f382155759b5b111d1097284a49cb91c0367f8a29"
+    },
+    "examples/verified-run/wrong-order/Tracker_Enrollment_Verification.json": {
+      "bytes": 637,
+      "sha256": "c42d5e5639222784bf652771a3b05cdbc6f850ba054c2dbfef52f82649d2f81d"
+    },
+    "examples/verified-run/wrong-order/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/wrong-order/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/wrong-order/input.json": {
+      "bytes": 252,
+      "sha256": "c709e8156fff1631e1b77e91b91b6b40df3417a1adbb040d5ebe55e668876914"
+    },
+    "examples/verified-run/wrong-order/result.json": {
+      "bytes": 467,
+      "sha256": "f2e4bc9c9f0668cfe5ad912f44d951826cd02fa5f2c233a7dc8ce3a33b84e28f"
+    },
+    "examples/verified-run/wrong-order/run-log.jsonl": {
+      "bytes": 4594,
+      "sha256": "35167a00c0504d0c57301a1dc7e305c68ef1f7b85d00927d796f6f74db65582d"
+    },
+    "examples/verified-run/wrong-order/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/wrong-order/state.json": {
+      "bytes": 1359,
+      "sha256": "55adb95a6dec19907b9d4784d91acf74dc542774d247079e4a53b062d26ffd35"
+    },
+    "examples/verified-run/wrong-order/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/wrong-order/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/wrong-shop/evidence/observation.txt": {
+      "bytes": 107,
+      "sha256": "43cca00d802f931fa48ccc9c27f4b3e3a413400ce7eaa2c267570e278eba3845"
+    },
+    "examples/verified-run/wrong-shop/evidence/receipt.json": {
+      "bytes": 160,
+      "sha256": "a975ad6ec4664a70c947e96feb656a93cbaeb9689549311b6dce6a3fdc92279f"
+    },
+    "examples/verified-run/wrong-shop/input.json": {
+      "bytes": 250,
+      "sha256": "66318fdb6b9b1f71285ca48cc376684832240ff6263055d0abb183f5294412f4"
+    },
+    "examples/verified-run/wrong-shop/result.json": {
+      "bytes": 465,
+      "sha256": "e58dc351d1a5d5ad3e27bd7d2bc355cdd04e2e4561feecc712a781b47d2e51d6"
+    },
+    "examples/verified-run/wrong-shop/run-log.jsonl": {
+      "bytes": 3352,
+      "sha256": "7f21cf8d2f1a3c40422e7ef524ae5e4a3d291bd2393ac2256d91dfb2d52a4a46"
+    },
+    "examples/verified-run/wrong-shop/simulated-authorization.json": {
+      "bytes": 93,
+      "sha256": "ebb17930dd62e3c459b87a0476c32e6b2199a67a26346b9a4cdabc242379784d"
+    },
+    "examples/verified-run/wrong-shop/state.json": {
+      "bytes": 478,
+      "sha256": "ef23ba29dab822768192b2f1dba1fad45ee580c6baa5f4d8bad65204421bd1e6"
+    },
+    "examples/verified-run/wrong-shop/tracker-after.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "examples/verified-run/wrong-shop/tracker-before.json": {
+      "bytes": 138,
+      "sha256": "0c8350b59ae186fc772309788b1c64570624251f8d37b9d90e15930eadc4cf28"
+    },
+    "index.html": {
+      "bytes": 10981,
+      "sha256": "459664e6ca8c0aef3045e103f2b5bfe2f54cb43122dc35fe55309ebffc75b36e"
+    },
+    "invoice_demo/__init__.py": {
+      "bytes": 66,
+      "sha256": "b9796708268d869276540470edf1b322576bff4e306c03310349f2f909e7968f"
+    },
+    "invoice_demo/__main__.py": {
+      "bytes": 749,
+      "sha256": "0e6a4743374335ed903e9bf7e665273d05949af864f3e94d54899982df03fa48"
+    },
+    "invoice_demo/recovery.py": {
+      "bytes": 379,
+      "sha256": "c640d8df568e4a932e52ba463dc8474390e98752f3f03c87b97685fd1bb21ca9"
+    },
+    "invoice_demo/review.py": {
+      "bytes": 2816,
+      "sha256": "82a8005dd2371c0069d53c0eeb6001febe0b018049ecf3f627e3d01801e57123"
+    },
+    "invoice_demo/simulation.py": {
+      "bytes": 17723,
+      "sha256": "c0cb9691c8d580c9d892300bc4779f44263af59baad21b9c3699dce7a4500e3a"
+    },
+    "invoice_demo/state_machine.py": {
+      "bytes": 11390,
+      "sha256": "efda04b29f2f5066acde50ce1ec8f207c7a285b46a05e904781b601546348a75"
+    },
+    "invoice_demo/tracker.py": {
+      "bytes": 10318,
+      "sha256": "9c2a4e9a736c2c6d510c41385e3434e37ae65416c5ef39734160b5bd8c4498f8"
+    },
+    "requirements.txt": {
+      "bytes": 68,
+      "sha256": "23e0ab7907593cca08e53ad96250b27c3f4f8e2a965457302bb196c4c27fd5b3"
+    },
+    "tests/test_dashboards.py": {
+      "bytes": 3314,
+      "sha256": "ae3bbb9ee13f841191d79bf049eff19331b64acc8e8c07d1ef117b9ca7ffdf54"
+    },
+    "tests/test_demo.py": {
+      "bytes": 8194,
+      "sha256": "02d26aa682b2b84992b1a2ea6babac2d3b4c00bffcc3de7baa39e442ee743495"
+    },
+    "walkthrough-data.json": {
+      "bytes": 2455,
+      "sha256": "8c19061875f967e95c0b5f83aeded1a2ba5c3e4fe2ae8c38538359e11baa72e0"
+    }
+  },
+  "note": "Integrity fingerprints for this candidate; not signatures or publication authorization."
+}

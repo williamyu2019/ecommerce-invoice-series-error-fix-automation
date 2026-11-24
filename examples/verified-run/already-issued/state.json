@@ -1,0 +1,66 @@
+{
+  "tasks": [
+    {
+      "agent_id": "9000",
+      "shop_id": "9001",
+      "status": "SKIPPED",
+      "shop_verified": true,
+      "scan_complete": true,
+      "series_before": "",
+      "series_after": "",
+      "series_status": "NOT_CHECKED",
+      "orders": {
+        "DEMOORDER001": {
+          "order_id": "DEMOORDER001",
+          "buyer": "demo.buyer",
+          "error_code": "539",
+          "status": "ALREADY_ISSUED",
+          "attempts": 0,
+          "reason": "",
+          "evidence": "SIMULATION observed invoice download"
+        }
+      },
+      "reason": "No eligible configured invoice-series error; no issuance needed",
+      "last_step": "FINISHED",
+      "updated_at": "2026-01-15T10:00:00-03:00",
+      "last_order_checks": {}
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "open",
+        "observed_shop_id": "9001"
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "scan",
+        "complete": true,
+        "orders": [
+          {
+            "order_id": "DEMOORDER001",
+            "buyer": "demo.buyer",
+            "status": "ALREADY_ISSUED",
+            "error_code": "539",
+            "evidence": "SIMULATION observed invoice download",
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "finish"
+      }
+    }
+  ],
+  "phase": "REPAIR",
+  "input_sha256": "c559a91bc2c1ba997306ba33813b2faf8418822d6ea416ff0cb383f4a7c46a25"
+}

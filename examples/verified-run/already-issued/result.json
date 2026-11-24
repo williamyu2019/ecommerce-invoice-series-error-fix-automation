@@ -1,0 +1,20 @@
+{
+  "rejection_stage": null,
+  "tracker_action": "Skipped - invoice already issued; series unchanged",
+  "tracker_date": null,
+  "tracker_note": "SIMULATION observed invoice download",
+  "scenario": "already-issued",
+  "run_id": "sim-920684857a14",
+  "environment": "SIMULATION",
+  "outcome": "SKIPPED",
+  "order_status": "ALREADY_ISSUED",
+  "attempts": 0,
+  "series_saves": 0,
+  "series_before": "",
+  "series_after": "",
+  "closeout_verified": true,
+  "recovery_action": null,
+  "rejected_actions": 0,
+  "model_calls": 0,
+  "live_business_actions": 0
+}

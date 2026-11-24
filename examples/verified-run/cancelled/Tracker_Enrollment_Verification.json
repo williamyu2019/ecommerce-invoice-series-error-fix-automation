@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "spreadsheet_id": "synthetic-tracker",
+  "sheet": "Synthetic outcomes",
+  "input_sha256": "ba6d2c98d12e4d2bc484948772042102c8193285fa4810e80f2aa9ef123e955f",
+  "orders_sha256": "79aff4263038c1eca77b1c21b26b9fa775105207905cd08d218faa0575a57e1a",
+  "checked_at": "2026-01-15T10:00:00-03:00",
+  "method": "simulation",
+  "live_readback": false,
+  "environment": "SIMULATION",
+  "evidence": "SIMULATION only: in-memory fixture tracker readback",
+  "rows": [
+    {
+      "shop_id": "9001",
+      "order_id": "DEMOORDER001",
+      "row": 2,
+      "action": "",
+      "date_fixed": null,
+      "note": ""
+    }
+  ]
+}

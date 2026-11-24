@@ -1,0 +1,92 @@
+{
+  "tasks": [
+    {
+      "agent_id": "9000",
+      "shop_id": "9001",
+      "status": "RUNNING",
+      "shop_verified": true,
+      "scan_complete": true,
+      "series_before": "004",
+      "series_after": "",
+      "series_status": "NOT_CHECKED",
+      "orders": {
+        "DEMOORDER001": {
+          "order_id": "DEMOORDER001",
+          "buyer": "demo.buyer",
+          "error_code": "539",
+          "status": "READY",
+          "attempts": 0,
+          "reason": "",
+          "evidence": ""
+        }
+      },
+      "reason": "",
+      "last_step": "SERIES_SAVING",
+      "updated_at": "2026-01-15T10:00:00-03:00",
+      "last_order_checks": {},
+      "series_save_pending": true,
+      "series_saved_at": "2026-01-15T10:00:00-03:00"
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "open",
+        "observed_shop_id": "9001"
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "scan",
+        "complete": true,
+        "orders": [
+          {
+            "order_id": "DEMOORDER001",
+            "buyer": "demo.buyer",
+            "status": "PENDING_ERROR",
+            "error_code": "539",
+            "evidence": "",
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "order_check",
+        "order_id": "DEMOORDER001",
+        "observed_order_id": "DEMOORDER001",
+        "observed_shop_id": "9001",
+        "buyer": "demo.buyer",
+        "status": "PENDING_ERROR",
+        "error_code": "539",
+        "evidence": "SIMULATION exact current order detail"
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "series_intent",
+        "before": "004"
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "series_save_result",
+        "success": true,
+        "evidence": "SIMULATION save success"
+      }
+    }
+  ],
+  "phase": "REPAIR",
+  "input_sha256": "ffaa31100cf0665a1c593fc849e399d3a69891c441c077f022287987309cdbac"
+}

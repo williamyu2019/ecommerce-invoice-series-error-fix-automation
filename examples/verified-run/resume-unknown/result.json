@@ -1,0 +1,20 @@
+{
+  "rejection_stage": "issue_intent",
+  "tracker_action": "",
+  "tracker_date": null,
+  "tracker_note": "",
+  "scenario": "resume-unknown",
+  "run_id": "sim-7985828e88b8",
+  "environment": "SIMULATION",
+  "outcome": "REVIEW",
+  "order_status": "REVIEW",
+  "attempts": 1,
+  "series_saves": 1,
+  "series_before": "004",
+  "series_after": "747",
+  "closeout_verified": false,
+  "recovery_action": "VERIFY_INVOICE_READ_ONLY",
+  "rejected_actions": 1,
+  "model_calls": 0,
+  "live_business_actions": 0
+}

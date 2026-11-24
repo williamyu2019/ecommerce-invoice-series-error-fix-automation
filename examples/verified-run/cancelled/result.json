@@ -1,0 +1,20 @@
+{
+  "rejection_stage": null,
+  "tracker_action": "Skipped - order no longer eligible; series unchanged",
+  "tracker_date": null,
+  "tracker_note": "SIMULATION order cancelled",
+  "scenario": "cancelled",
+  "run_id": "sim-a13a1575b202",
+  "environment": "SIMULATION",
+  "outcome": "SKIPPED",
+  "order_status": "SKIPPED",
+  "attempts": 0,
+  "series_saves": 0,
+  "series_before": "",
+  "series_after": "",
+  "closeout_verified": true,
+  "recovery_action": null,
+  "rejected_actions": 0,
+  "model_calls": 0,
+  "live_business_actions": 0
+}

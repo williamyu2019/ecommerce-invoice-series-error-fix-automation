@@ -1,0 +1,20 @@
+{
+  "rejection_stage": "evidence",
+  "tracker_action": "",
+  "tracker_date": null,
+  "tracker_note": "",
+  "scenario": "evidence-environment",
+  "run_id": "sim-9c4bf622cba2",
+  "environment": "SIMULATION",
+  "outcome": "BLOCKED",
+  "order_status": "NOT_CHECKED",
+  "attempts": 0,
+  "series_saves": 0,
+  "series_before": "",
+  "series_after": "",
+  "closeout_verified": false,
+  "recovery_action": null,
+  "rejected_actions": 1,
+  "model_calls": 0,
+  "live_business_actions": 0
+}

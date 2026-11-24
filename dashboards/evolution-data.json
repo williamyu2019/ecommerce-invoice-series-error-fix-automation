@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "title": "Workflow evolution: original Codex UI",
+  "updated_at": "2026-11-06T14:46:20.404466+00:00",
+  "timezone": "America/Sao_Paulo",
+  "metric_keys": [
+    "human",
+    "fix"
+  ],
+  "period": {
+    "label": "Synthetic fixture date; not development history",
+    "start": "2026-01-15",
+    "end": "2026-01-15"
+  },
+  "days": [
+    {
+      "date": "2026-01-15",
+      "run_count": 16,
+      "order_count": 11,
+      "human": {
+        "count": null,
+        "coverage": "UNAVAILABLE",
+        "status": "UNMEASURED"
+      },
+      "fix": {
+        "seconds": null,
+        "coverage": "UNAVAILABLE",
+        "status": "UNMEASURED",
+        "all_run_times_recorded": false
+      },
+      "presentation": {
+        "activity_count": 16,
+        "activity_label": "Synthetic cases",
+        "basis": "Core fixture; not business history",
+        "order_count": 11,
+        "human": {
+          "value": null,
+          "estimated": false
+        },
+        "fix": {
+          "value": null,
+          "seconds_per_order": null,
+          "estimated": false,
+          "total_available": false
+        }
+      }
+    }
+  ],
+  "phases": [
+    {
+      "number": "01",
+      "title": "Sheet script",
+      "period": "Initial approach",
+      "steps": {
+        "intake": {
+          "level": "assisted",
+          "text": "Click script in Sheets"
+        },
+        "binding": {
+          "level": "manual",
+          "text": "Upload binding file"
+        },
+        "validation": {
+          "level": "manual",
+          "text": "Check each order"
+        },
+        "repair": {
+          "level": "manual",
+          "text": "Change series and retry"
+        },
+        "recording": {
+          "level": "manual",
+          "text": "Update tracker"
+        }
+      }
+    },
+    {
+      "number": "02",
+      "title": "Sheet script + desktop repair",
+      "period": "Oct 13–16",
+      "steps": {
+        "intake": {
+          "level": "assisted",
+          "text": "Prepare input file"
+        },
+        "binding": {
+          "level": "manual",
+          "text": "Upload binding file"
+        },
+        "validation": {
+          "level": "assisted",
+          "text": "Agent checks; you review"
+        },
+        "repair": {
+          "level": "assisted",
+          "text": "Agent-led repair"
+        },
+        "recording": {
+          "level": "assisted",
+          "text": "Save local results"
+        }
+      }
+    },
+    {
+      "number": "03",
+      "title": "Automated workflow",
+      "period": "Oct 16–19",
+      "steps": {
+        "intake": {
+          "level": "auto",
+          "text": "Read and queue orders"
+        },
+        "binding": {
+          "level": "approval",
+          "text": "Upload after approval"
+        },
+        "validation": {
+          "level": "assisted",
+          "text": "Agent checks; you review"
+        },
+        "repair": {
+          "level": "approval",
+          "text": "One attempt per order"
+        },
+        "recording": {
+          "level": "auto",
+          "text": "Local + Sheet writeback"
+        }
+      }
+    },
+    {
+      "number": "04",
+      "title": "Automated workflow + login checks",
+      "period": "Oct 20–22",
+      "steps": {
+        "readiness": {
+          "level": "auto",
+          "text": "Login precheck (Oct 22)"
+        },
+        "intake": {
+          "level": "auto",
+          "text": "Check data, then queue"
+        },
+        "binding": {
+          "level": "approval",
+          "text": "Upload after approval"
+        },
+        "validation": {
+          "level": "auto",
+          "text": "Release eligible orders"
+        },
+        "repair": {
+          "level": "approval",
+          "text": "Recheck before retry"
+        },
+        "recording": {
+          "level": "auto",
+          "text": "Read back written results"
+        }
+      }
+    },
+    {
+      "number": "05",
+      "title": "Automated workflow + login & access checks",
+      "period": "Oct 26 onward",
+      "steps": {
+        "readiness": {
+          "level": "auto",
+          "text": "Profile & upload checks (Oct 27)"
+        },
+        "intake": {
+          "level": "auto",
+          "text": "Read and queue orders"
+        },
+        "binding": {
+          "level": "approval",
+          "text": "Upload + verify binding"
+        },
+        "validation": {
+          "level": "auto",
+          "text": "Release eligible orders"
+        },
+        "repair": {
+          "level": "approval",
+          "text": "Save, reread, verify"
+        },
+        "recording": {
+          "level": "auto",
+          "text": "Verified results + run log"
+        }
+      }
+    }
+  ],
+  "runs": [],
+  "warnings": [
+    "SYNTHETIC core fixture. Human interventions and runtime are UNMEASURED, not zero.",
+    "Five evolution phases are the retained historical Codex description; not newly measured capabilities."
+  ],
+  "checks": []
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "row": 2,
+    "action": "Fixed invoice # to 747; invoice ISSUED",
+    "date_fixed": "2026-01-15",
+    "note": "SIMULATION same-order invoice download available"
+  }
+]

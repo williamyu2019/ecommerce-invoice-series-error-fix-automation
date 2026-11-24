@@ -1,0 +1,31 @@
+{
+  "version": "0.2.1",
+  "evolution": {
+    "origin": "Codex original dashboard",
+    "source_snapshot_updated_at": "2026-11-06T14:46:20.404466+00:00",
+    "phase_count": 5,
+    "claude_mirror_phase_count": 0,
+    "selection_reason": "Codex original retains all five phases; Claude engine mirror has empty phase data.",
+    "scope": "Original UI and historical phase descriptions; performance data replaced with an offline fixture."
+  },
+  "monitoring": {
+    "origin": "Claude returned Operations dashboard",
+    "source_data_generated_at": "2026-11-12T15:10:41-03:00",
+    "retained_source_batches": 12,
+    "retained_claude_batch_dates": [
+      "2026-11-09",
+      "2026-11-10"
+    ],
+    "selection_reason": "Latest returned local page/index.html and dashboard_data.json in the provided 08_dashboard folder.",
+    "scope": "Original four-chart UI; host-only dash API replaced by a local shim; D3 bundled locally; 14 illustrative daily samples; separate from core evaluation results.",
+    "online_artifact_checked": false,
+    "display_data_kind": "SYNTHETIC_ILLUSTRATIVE",
+    "display_days": 14,
+    "display_period": {
+      "start": "2026-01-05",
+      "end": "2026-01-18"
+    },
+    "measured_from_core_runs": false
+  },
+  "data_notice": "SYNTHETIC: evolution uses core fixtures; monitoring uses 14 illustrative days, not measurements. No real order/shop/buyer/account IDs, business rows or historical performance series are included."
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "normal539",
+    "evaluation": "E1",
+    "description": "Complete a current 539 error",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "normal206",
+    "evaluation": "E2",
+    "description": "Complete a current 206 error",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "206",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "already-issued",
+    "evaluation": "E3",
+    "description": "Skip an existing invoice",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "cancelled",
+    "evaluation": "E3",
+    "description": "Skip a cancelled order",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "wrong-shop",
+    "evaluation": "E4",
+    "description": "Reject mismatched shop identity",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "wrong-order",
+    "evaluation": "E4",
+    "description": "Reject mismatched order identity",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "missing-authorization",
+    "evaluation": "E5",
+    "description": "Reject absent simulated operator confirmation",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "agent-authored-authorization",
+    "evaluation": "E5",
+    "description": "Reject a fixture marked as agent-authored confirmation",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "resume-unknown",
+    "evaluation": "E6",
+    "description": "Resume an uncertain issuance without another attempt",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "resume-confirmed",
+    "evaluation": "E6",
+    "description": "Resume and reconcile a confirmed invoice",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "save-unconfirmed",
+    "evaluation": "E7",
+    "description": "Reject verification without a save receipt",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "reload-old-series",
+    "evaluation": "E7",
+    "description": "Reject a stale series readback",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "writeback-moved",
+    "evaluation": "E8",
+    "description": "Find tracker row by identity after row movement",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "writeback-conflict",
+    "evaluation": "E8",
+    "description": "Preserve a conflicting tracker value",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "evidence-environment",
+    "evaluation": "E9",
+    "description": "Reject LIVE evidence in a simulated run",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  },
+  {
+    "id": "evidence-hash",
+    "evaluation": "E9",
+    "description": "Reject changed evidence text",
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "buyer": "demo.buyer",
+    "error_code": "539",
+    "series_before": "004",
+    "target_series": "747"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "spreadsheet_id": "synthetic-tracker",
+  "sheet": "Synthetic outcomes",
+  "input_sha256": "b8dce76e3d35d1e19c9a7426b2ba8d7918d16b3731c2d248b1fe47106df509ce",
+  "orders_sha256": "79aff4263038c1eca77b1c21b26b9fa775105207905cd08d218faa0575a57e1a",
+  "checked_at": "2026-01-15T10:00:00-03:00",
+  "method": "simulation",
+  "live_readback": false,
+  "environment": "SIMULATION",
+  "evidence": "SIMULATION only: in-memory fixture tracker readback",
+  "rows": [
+    {
+      "shop_id": "9001",
+      "order_id": "DEMOORDER001",
+      "row": 13,
+      "action": "Fixed invoice # to 747; invoice ISSUED",
+      "date_fixed": "2026-01-15",
+      "note": "SIMULATION same-order invoice download available"
+    }
+  ],
+  "state_sha256": "347bbf77c5075e6f1aee67fc8a89e97afeacd08cb9c776cd257331f6a5f06f64"
+}

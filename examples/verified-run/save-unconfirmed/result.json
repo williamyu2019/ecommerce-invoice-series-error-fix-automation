@@ -1,0 +1,20 @@
+{
+  "rejection_stage": "series_verified",
+  "tracker_action": "",
+  "tracker_date": null,
+  "tracker_note": "",
+  "scenario": "save-unconfirmed",
+  "run_id": "sim-8c56c1dfe145",
+  "environment": "SIMULATION",
+  "outcome": "BLOCKED",
+  "order_status": "READY",
+  "attempts": 0,
+  "series_saves": 0,
+  "series_before": "004",
+  "series_after": "",
+  "closeout_verified": false,
+  "recovery_action": null,
+  "rejected_actions": 1,
+  "model_calls": 0,
+  "live_business_actions": 0
+}

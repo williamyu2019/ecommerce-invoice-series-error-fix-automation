@@ -1,0 +1,21 @@
+{
+  "tasks": [
+    {
+      "agent_id": "9000",
+      "shop_id": "9001",
+      "status": "PENDING",
+      "shop_verified": false,
+      "scan_complete": false,
+      "series_before": "",
+      "series_after": "",
+      "series_status": "NOT_CHECKED",
+      "orders": {},
+      "reason": "",
+      "last_step": "PENDING",
+      "updated_at": ""
+    }
+  ],
+  "events": [],
+  "phase": "REPAIR",
+  "input_sha256": "4b0c647ec76bccaad3f77f8b25438dfbd9dc66fa5007bd935682e5eb1e1d32f0"
+}

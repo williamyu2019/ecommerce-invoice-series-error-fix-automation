@@ -1,0 +1,59 @@
+{
+  "tasks": [
+    {
+      "agent_id": "9000",
+      "shop_id": "9001",
+      "status": "RUNNING",
+      "shop_verified": true,
+      "scan_complete": true,
+      "series_before": "",
+      "series_after": "",
+      "series_status": "NOT_CHECKED",
+      "orders": {
+        "DEMOORDER001": {
+          "order_id": "DEMOORDER001",
+          "buyer": "demo.buyer",
+          "error_code": "539",
+          "status": "READY",
+          "attempts": 0,
+          "reason": "",
+          "evidence": ""
+        }
+      },
+      "reason": "",
+      "last_step": "ORDER_CHECKED",
+      "updated_at": "2026-01-15T10:00:00-03:00",
+      "last_order_checks": {}
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "open",
+        "observed_shop_id": "9001"
+      }
+    },
+    {
+      "at": "2026-01-15T10:00:00-03:00",
+      "shop_id": "9001",
+      "event": {
+        "type": "scan",
+        "complete": true,
+        "orders": [
+          {
+            "order_id": "DEMOORDER001",
+            "buyer": "demo.buyer",
+            "status": "PENDING_ERROR",
+            "error_code": "539",
+            "evidence": "",
+            "reason": ""
+          }
+        ]
+      }
+    }
+  ],
+  "phase": "REPAIR",
+  "input_sha256": "c709e8156fff1631e1b77e91b91b6b40df3417a1adbb040d5ebe55e668876914"
+}

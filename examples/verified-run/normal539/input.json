@@ -1,0 +1,11 @@
+{
+  "id": "normal539",
+  "evaluation": "E1",
+  "description": "Complete a current 539 error",
+  "shop_id": "9001",
+  "order_id": "DEMOORDER001",
+  "buyer": "demo.buyer",
+  "error_code": "539",
+  "series_before": "004",
+  "target_series": "747"
+}

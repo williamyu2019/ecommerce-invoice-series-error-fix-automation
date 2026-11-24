@@ -1,0 +1,11 @@
+{
+  "id": "agent-authored-authorization",
+  "evaluation": "E5",
+  "description": "Reject a fixture marked as agent-authored confirmation",
+  "shop_id": "9001",
+  "order_id": "DEMOORDER001",
+  "buyer": "demo.buyer",
+  "error_code": "539",
+  "series_before": "004",
+  "target_series": "747"
+}

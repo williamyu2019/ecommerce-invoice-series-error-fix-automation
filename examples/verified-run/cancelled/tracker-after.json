@@ -1,0 +1,10 @@
+[
+  {
+    "shop_id": "9001",
+    "order_id": "DEMOORDER001",
+    "row": 2,
+    "action": "Skipped - order no longer eligible; series unchanged",
+    "date_fixed": null,
+    "note": "SIMULATION order cancelled"
+  }
+]
